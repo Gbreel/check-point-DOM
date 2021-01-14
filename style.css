@@ -1,0 +1,50 @@
+.fa,
+.fas {
+  cursor: pointer;
+}
+
+.carousel-inner {
+  height: 600px;
+}
+.shopping-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #e7e7e7;
+  padding-top: 40px;
+}
+.cards-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 100%;
+}
+.card-img-top {
+  width: 225px;
+  height: 225px;
+}
+.card {
+  margin-right: 5px;
+  margin-left: 5px;
+}
+.plus-btn,
+.minus-btn {
+  font-size: 30px;
+  margin: 5px;
+}
+.plus-btn:hover {
+  color: aqua;
+}
+.minus-btn:hover {
+  color: brown;
+}
+.fa-heart,
+.fa-trash-alt {
+  font-size: 30px;
+  margin: 5px;
+}
+
+.fa-trash-alt {
+  color: yellowgreen;
+}
